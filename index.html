@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narendra Ogety &mdash; Portfolio</title>
+  <!-- External fonts and icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-uBqbxkzlU6FtZsKmfA4wPdvLYWpB+g9p2ko8cWAPsLe72ZsbHdYi0EGihA3kKvlaBrpfou+DYhVVLW8wCQ5C2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Fixed navigation bar -->
+  <header>
+    <nav>
+      <div class="logo">Narendra&nbsp;Ogety</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Hero section with gradient background -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Narendra Ogety</h1>
+        <p class="subtitle">AI&nbsp;Data Engineer &amp; Data&nbsp;Scientist</p>
+        <p class="tagline">
+          I build scalable data pipelines, craft dynamic dashboards and apply machine learning to drive actionable insights.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- About section -->
+    <section id="about" class="about reveal">
+      <h2>About Me</h2>
+      <p>
+        I am currently pursuing a <strong>Master of Science in Computer and Information Science</strong> at
+        <em>Saint&nbsp;Louis&nbsp;University</em> with a GPA of 3.9/4.0. I have a passion for building data-driven
+        solutions and enjoy working on the full stack of data engineering from ingestion to visualization. My past
+        experience includes roles as an <strong>AI&nbsp;Data&nbsp;Engineer at Goldman&nbsp;Sachs</strong> and as a
+        <strong>Data&nbsp;Engineer at Infosys</strong>, where I built robust ETL pipelines, automated workflows and created interactive dashboards. I thrive at the intersection of analytics, engineering and product, ensuring that data delivers
+        measurable value.
+      </p>
+    </section>
+
+    <!-- Experience section -->
+    <section id="experience" class="experience reveal">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>AI Data Engineer &middot; Goldman&nbsp;Sachs</h3>
+        <span class="period">Aug&nbsp;2024 &ndash; Present &middot; Dallas, United&nbsp;States</span>
+        <ul>
+          <li>Designed complex SQL pipelines to analyze structured risk and compliance datasets for internal stakeholders.</li>
+          <li>Developed dynamic dashboards in Power&nbsp;BI delivering daily operational metrics across compliance and operations.</li>
+          <li>Automated ETL workflows using Airflow and Jenkins to improve data delivery consistency and reduce manual effort.</li>
+          <li>Collaborated with audit teams to align data transformations with governance and reporting requirements.</li>
+          <li>Built anomaly detection models in Python to identify irregular patterns in market monitoring data.</li>
+          <li>Implemented data pipelines with AWS Glue, S3 and Athena for fast, repeatable query layers.</li>
+          <li>Worked in Agile sprints and mentored new analysts through reproducible workflow templates.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Data Engineer &middot; Infosys</h3>
+        <span class="period">Jul&nbsp;2021 &ndash; Mar&nbsp;2023 &middot; Bangalore, India</span>
+        <ul>
+          <li>Built SQL‑driven dashboards and data flows to support insurance analytics across client‑facing platforms.</li>
+          <li>Automated Python‑based validation checks on incoming pipelines to ensure data quality and delivery accuracy.</li>
+          <li>Created visual dashboards in Power&nbsp;BI and Tableau to support marketing and finance reporting teams.</li>
+          <li>Documented data dictionaries and aligned ETL logic with business KPIs in collaboration with engineering.</li>
+          <li>Managed SharePoint‑based analytics summaries and documentation repositories for client deliverables.</li>
+          <li>Participated in Agile ceremonies and collaborated with product managers, analysts and QA on feature delivery.</li>
+          <li>Executed ad hoc SQL queries to support data audit requests and root cause investigations.</li>
+          <li>Coordinated with U.S. stakeholders to meet compliance and SLA metrics.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="projects reveal">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>FastAPI Spam Detection API</h3>
+        <p>
+          A real‑time spam classification API built with <strong>FastAPI</strong> and
+          <strong>Hugging&nbsp;Face Transformers</strong>. Achieved over 90% accuracy by leveraging the
+          <em>DistilRoBERTa</em> model, implemented asynchronous REST endpoints and deployed the service to
+          <strong>Railway</strong> for scalable production access. Optimized inference latency through concurrency
+          and efficient pipeline management.
+        </p>
+        <a href="#" class="project-link" aria-label="FastAPI Spam Detection source code">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Code
+        </a>
+      </div>
+      <div class="project">
+        <h3>Medical Equipment Demand Forecasting</h3>
+        <p>
+          Developed regression‑based forecasting models in Python to predict hospital equipment demand,
+          significantly improving inventory planning accuracy. Delivered interactive dashboards with
+          <strong>Power&nbsp;BI</strong> for supply‑chain teams and integrated predictive insights into existing
+          procurement workflows for proactive resource planning.
+        </p>
+        <a href="#" class="project-link" aria-label="Demand Forecasting source code">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Code
+        </a>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills reveal">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-item">
+          <i class="devicon-python-plain colored"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-sqlalchemy-plain colored"></i>
+          <span>SQL</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-r-original colored"></i>
+          <span>R</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-linux-plain colored"></i>
+          <span>Bash</span>
+        </div>
+        <!-- Databases -->
+        <div class="skill-item">
+          <i class="devicon-postgresql-plain colored"></i>
+          <span>PostgreSQL</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-mysql-plain colored"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-mongodb-plain colored"></i>
+          <span>MongoDB</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-amazonwebservices-plain colored"></i>
+          <span>Amazon&nbsp;RDS</span>
+        </div>
+        <!-- Big Data &amp; Streaming -->
+        <div class="skill-item">
+          <i class="devicon-apachespark-plain colored"></i>
+          <span>PySpark</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-apachespark-plain colored"></i>
+          <span>Spark&nbsp;SQL</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-solid fa-code"></i>
+          <span>REST &amp; GraphQL APIs</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-fastapi-plain colored"></i>
+          <span>FastAPI</span>
+        </div>
+        <!-- Cloud &amp; Deployment -->
+        <div class="skill-item">
+          <i class="devicon-amazonwebservices-original colored"></i>
+          <span>AWS</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-microsoftazure-plain colored"></i>
+          <span>Azure</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-docker-plain colored"></i>
+          <span>Docker</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-solid fa-train"></i>
+          <span>Railway</span>
+        </div>
+        <!-- ETL, AI &amp; ML -->
+        <div class="skill-item">
+          <i class="fa-solid fa-code-branch"></i>
+          <span>Airflow &amp; Jenkins</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-scikit-learn-plain colored"></i>
+          <span>Scikit‑learn</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-huggingface-original colored"></i>
+          <span>Transformers</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-solid fa-x"></i>
+          <span>XGBoost</span>
+        </div>
+        <!-- Visualization &amp; Tools -->
+        <div class="skill-item">
+          <i class="devicon-tableau-plain colored"></i>
+          <span>Tableau</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-powerbi-plain colored"></i>
+          <span>Power&nbsp;BI</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-vscode-plain colored"></i>
+          <span>VS&nbsp;Code</span>
+        </div>
+        <div class="skill-item">
+          <i class="devicon-git-plain colored"></i>
+          <span>Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact reveal">
+      <h2>Contact</h2>
+      <div class="contact-details">
+        <p>Feel free to reach out for collaborations, opportunities or just to say hello!</p>
+        <a href="mailto:ogetynarendra6@gmail.com"><i class="fa-solid fa-envelope"></i> ogetynarendra6@gmail.com</a>
+        <a href="tel:+13143350418"><i class="fa-solid fa-phone"></i> +1&nbsp;(314)&nbsp;335‑0418</a>
+        <a href="https://github.com/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    ©&nbsp;2025&nbsp;Narendra Ogety
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
